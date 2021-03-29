@@ -1,4 +1,5 @@
 $body-font: $lato;
+$heading-font: $bodoni;
 
 img{
     max-width: 100%;
@@ -10,7 +11,13 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-    
+    font-family: $heading-font;
+}
+
+.section-title{
+    font-size: 3rem;
+    line-height: 4.5rem;
+    margin-bottom: 5rem;
 }
 .image-placeholder{
     position: relative;
