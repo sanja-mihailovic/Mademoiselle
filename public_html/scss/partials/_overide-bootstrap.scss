@@ -8,9 +8,10 @@ html{
 $font-size-base: 1.6rem;
 
 $body-color: #1E1E1E;
+
 $grid-gutter-width: 1.2rem;
 
-$secondary: #ECD9D9;
+$primary: #ECD9D9;
 $light: #F5F5F5;
 
 
@@ -36,14 +37,13 @@ $spacer: 1rem !default;
 $spacers: (
   0: 0,
   1: $spacer / 2,
-  2: $spacer ,
-  3: $spacer *1.5,
+  2: $spacer,
+  3: $spacer * 1.5,
   4: $spacer * 2,
   5: $spacer * 2.5,
   6: $spacer * 3,
-  7: $spacer *3.5 ,
-  8: $spacer *4,
+  7: $spacer * 3.5,
+  8: $spacer * 4,
   9: $spacer * 4.5,
-  10: $spacer  *5
+  10: $spacer * 5,
 );
-
