@@ -1,2 +1,46 @@
+$toggler-bg: $primary;
 
+
+header{
+
+    .navbar-brand{
+        max-width: 200px;
+    }
+
+    .navbar-toggler{
+        border: none;
+        span{
+            display: block;
+            width: 40px;
+            height: 4px;
+            background-color: $toggler-bg;
+            margin-bottom: 5px;
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+        }
+    }// navbar-toggler
+
+
+    .navbar-nav{
+        background-color: #ffffff;
+
+        li{
+            @media(min-width:768px){
+                margin-left: 20px;
+            }
+            @media(min-width:992px){
+                margin-left: 72px;
+            }
+            a{
+                text-align: center;
+                font-size: 1.4rem;
+                text-transform: uppercase;
+                line-height: 1.7rem;
+                padding: 10px;
+            }
+        }
+
+    }//navbar-nav
+}//header
 
