@@ -32,13 +32,21 @@ header{
             @media(min-width:992px){
                 margin-left: 72px;
             }
+
             a{
                 text-align: center;
                 font-size: 1.4rem;
                 text-transform: uppercase;
                 line-height: 1.7rem;
                 padding: 10px;
+                border-bottom: 1px solid transparent;
+                transition: 0.3s linear;
+                &.active{
+                    border-bottom: 1px solid $primary;
+
+                }
             }
+
         }
 
     }//navbar-nav

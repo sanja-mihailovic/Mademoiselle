@@ -1,0 +1,40 @@
+$date-font: $bodoni;
+$blog-title-font: $lato;
+
+.blog{
+    padding: 75px 0 56px;
+    
+    
+    .blog-data{
+        margin-top: -6rem;
+        z-index: 5 !important;
+        position: relative;
+        padding: 2.2rem 0 5.5rem;
+            
+        
+
+        .blog-date{
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            font-family: $date-font;
+            font-style: italic;
+
+        }
+        a{
+            display: block;
+            text-decoration: none;
+            color: #1E1E1E;
+            font-family: $blog-title-font;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            text-transform: uppercase;
+            height: 4.8rem;
+            overflow: hidden;
+        }
+    }
+
+
+
+
+}
+
