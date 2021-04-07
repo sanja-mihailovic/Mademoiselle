@@ -2,6 +2,13 @@ $toggler-bg: $primary;
 
 
 header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: white;
+    z-index: 6;
+   
 
     .navbar-brand{
         max-width: 200px;
@@ -36,6 +43,7 @@ header{
             a{
                 text-align: center;
                 font-size: 1.4rem;
+                letter-spacing: 1px;
                 text-transform: uppercase;
                 line-height: 1.7rem;
                 padding: 10px;

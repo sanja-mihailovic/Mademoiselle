@@ -1,8 +1,15 @@
-
+$team-item-link-font: $lato;
 
 .team{
     .team-slider{
+        
         border: 1px solid $primary;
+        .owl-dots{
+                position: absolute;
+                right: 45%;
+                bottom: 9%;
+        }
+        
         .team-item{
             padding: 20px 10px ;
             @media(min-width:768px){
@@ -19,18 +26,20 @@
                     text-decoration: none;
                     color: $secondary;
                     margin-bottom: 3.5rem;
-                    font-family: $lato;
+                    font-family: $team-item-link-font;
                     font-size: 3rem;
                     line-height: 2.7rem;
                     font-weight: 400;
                 }
                 .short-bio{
                     font-weight: 300;
+                    line-height: 2.3rem;
                 }
 
-            }
+            }//item-content
+            
 
-        }
-    }
+        }//team-item
+    }//team-slider
 
-}
+}//team

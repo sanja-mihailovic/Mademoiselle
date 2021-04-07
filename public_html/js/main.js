@@ -61,6 +61,9 @@ $(document).ready(function () {
                         required: true,
                         maxlength: 255
 
+                    },
+                    subject: {
+                        required: true
                     }
                 },
                 messages: {
@@ -75,6 +78,9 @@ $(document).ready(function () {
                         required: 'Message* is required field!!!',
                         maxlength: 'Max Message length is 255 characters !!!'
 
+                    },
+                    subject: {
+                        required: 'Subject* is required field!!!'
                     }
 
                 },

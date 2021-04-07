@@ -1,0 +1,141 @@
+$date-font: $bodoni;
+$title-font: $lato;
+$subtitle-font: $lato;
+$form-font: $bodoni;
+
+.about{
+
+    padding: 30px 0 10px;
+    .form-control{
+        font-style: italic;
+        font-family: $form-font;
+        font-size: 1.4rem;
+        background-color: transparent;
+    }
+
+    .input-group{
+        border: 1px solid $secondary;
+        
+
+    }
+    .fa, .fas {
+        position: absolute;
+        z-index: 2;
+        color: $secondary;
+        font-size: 2rem;
+        right: 10px;
+        bottom: 10px;  
+    }
+
+    @media(min-width:768px){
+        padding: 50px 0 10px;
+    }
+
+    @media(min-width:1200px){
+        padding: 91px 0 78px;
+    }
+
+    .about-item-title{
+        font-family: $title-font;
+        font-weight: 400;
+        font-size: 4.4rem;
+        line-height: 5rem;
+        margin-bottom: 4rem;
+
+    }
+
+    .about-item-subtitle{
+        font-family: $subtitle-font;
+        font-weight: 300;
+        font-size: 2rem;
+        line-height: 2.8rem;
+        margin-bottom: 6.6rem;
+    }
+    .about-item-info{
+        font-size:1.8rem;
+        font-weight: 300;
+        margin-bottom: 6.6rem;
+
+    }
+
+    .about-item-img{
+        margin-bottom: 6.6rem;
+    }
+
+    .blog-item{ 
+        position: relative;
+        margin-bottom: 12rem;
+        .blog-data{
+            //margin-top:  -6rem;
+            /*            z-index: 2 ;
+                        position: absolute;
+                        left: 7%;
+                        right: 7%;
+                        top: 68%;
+                        padding: 2.2rem 2rem 5.5rem;
+                        max-width: 80%;*/
+            z-index: 2;
+            position: absolute;
+            left: 10%;
+            right: 5%;
+            top: 73%;
+            padding: 2.2rem 2rem 5.5rem;
+            max-width: 80%;
+
+
+
+
+            .blog-date{
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+                font-family: $date-font;
+                font-style: italic;
+                letter-spacing: 1px;
+
+            }
+            a{
+                display: block;
+                text-decoration: none;
+                color: $secondary;
+                font-family: $blog-title-font;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                max-height: 4.8rem;
+                overflow: hidden;
+                text-transform: uppercase;
+            }//a
+        }//blog-data
+    }//blog-item
+}//about
+
+
+/*.blog-data{
+    margin-top: -9rem;
+    z-index: 1 !important;
+    padding: 2.2rem 2rem 5.5rem;
+    max-width: 80%;
+    position: relative;
+    margin-left: 4rem;
+
+
+
+
+    .blog-date{
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        font-family: $date-font;
+        font-style: italic;
+
+    }
+    a{
+        display: block;
+        text-decoration: none;
+        color: #1E1E1E;
+        font-family: $blog-title-font;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        max-height: 4.8rem;
+        overflow: hidden;
+        text-transform: uppercase;
+    }
+}*/
